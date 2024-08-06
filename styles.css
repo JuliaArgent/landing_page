@@ -1,0 +1,43 @@
+* {
+    font-family: "Inter", sans-serif;
+
+}
+
+.navbar {
+    background-color: #e8e5e480;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+    width: 20%;
+    align-self: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    /* padding: 0; */
+    display: flex;
+
+    /* justify-content: space-between; */
+}
+
+.navbar li {
+    /* margin-right: 15px; */
+    padding: 0.5em;
+}
+
+.navbar a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 0.8em;
+}
+
+.navbar a:hover {
+    color: #ccc;
+}
+
+.navbar a.active {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
